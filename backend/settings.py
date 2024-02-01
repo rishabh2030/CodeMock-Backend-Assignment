@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     #plugins
     'rest_framework',
     'rest_framework_simplejwt',
+    # Application
+    'users'
 ]
 
 # Rest Framework Settings
@@ -55,6 +57,9 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=365),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=365),
 }
+
+# Custom Add-On Settings
+AUTH_USER_MODEL = 'users.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
