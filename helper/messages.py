@@ -10,5 +10,7 @@ POST_DELETED = "Post Deleted"
 EMAIL_ALREADY_EXIST = "Particular Email already exists"
 WRONG_PASSWORD = "Please enter a correct password"
 SOMETHING_WRONG = "Something went wrong"
+ENTER_WORD = "Enter word"
 
 ARTICLE_POSTED = "Article Posted successfully"
+WORD_DOES_NOT_EXIST = "Particiual word does not exist"
