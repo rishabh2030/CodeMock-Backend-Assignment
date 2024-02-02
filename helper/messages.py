@@ -10,3 +10,5 @@ POST_DELETED = "Post Deleted"
 EMAIL_ALREADY_EXIST = "Particular Email already exists"
 WRONG_PASSWORD = "Please enter a correct password"
 SOMETHING_WRONG = "Something went wrong"
+
+ARTICLE_POSTED = "Article Posted successfully"

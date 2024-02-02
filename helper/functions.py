@@ -11,6 +11,7 @@ status400 = status.HTTP_400_BAD_REQUEST
 status401 = status.HTTP_401_UNAUTHORIZED
 status403 = status.HTTP_403_FORBIDDEN
 status404 = status.HTTP_404_NOT_FOUND
+status500 = status.HTTP_500_INTERNAL_SERVER_ERROR
 
 
 #-------------------------------------- CLASS USER FUNCTIONS ------------------------------------
