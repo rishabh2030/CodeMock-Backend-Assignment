@@ -5,6 +5,13 @@ Users = get_user_model()
 
 
 class Paragraph(BaseModel):
+    """
+    Model representing paragraphs.
+
+    Inherits from BaseModel for common features.
+
+    Each paragraph belongs to a user and contains textual content.
+    """
     user = models.ForeignKey(Users, on_delete=models.CASCADE)
     content = models.TextField()
 
