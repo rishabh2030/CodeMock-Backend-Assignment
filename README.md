@@ -1,7 +1,7 @@
-# Running Project Django Project 💻
+# Running Django Project 💻
 ---
 ### Prerequisite
-- Python 3.8 or latest installed locally.
+- Python 3.8 or latest t installed locally.
 ### Env Method
 For this method, you need to have PostgreSQL installed and running locally. Additionally, you have to configure the database in the `.env ` file.
 1. Create a virtual environment to isolate our package dependencies locally:
